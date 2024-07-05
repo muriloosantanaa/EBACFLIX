@@ -1,0 +1,131 @@
+body {
+    background-color: #1d1c1c;
+}
+
+h1 a {
+    color: #e50914;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h2 {
+    color: #fff;
+} 
+
+header .navbar-nav {
+    color: #fff;
+}
+
+header .navbar-nav .nav-link {
+    text-align: center;
+    color: #fff;
+}
+
+header .navbar-nav .nav-link.active {
+    color: #fff;
+}
+
+nav {
+    background-color: rgb(20, 20, 20);
+}
+
+section {
+    padding-top: 72px;
+}
+
+#contato {
+    margin-bottom: 56px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: rgb(20, 20, 20);
+    max-height: 72px;
+    z-index: 1000;
+}
+
+#cabecalho #usuario {
+    width: 300px;
+}
+
+.carousel .carousel-item img {
+    height: 100vh;
+    width: 100%;
+}
+
+.card {
+    margin-bottom: 24px;
+}
+
+.card img {
+    height: 400px;
+}
+
+.lista-de-botoes {
+    list-style: none;
+    margin-right: 8px;
+}
+
+.lista-de-botoes #botao-assistir {
+    width: 100px;
+}
+
+#sobre .tab-content {
+    height: 400px;
+    color: #fff;
+}
+
+form label {
+    color: #fff;
+}
+
+footer {
+    background-color: rgb(20, 20, 20);
+    color: #fff;
+    padding: 16px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer p a {
+    text-decoration: none;
+    font-size: 18px;
+    transition: all ease .1s;
+}   
+
+footer p a:hover {
+    border-top: 4px solid blue;
+}
+
+@media screen and (max-width: 640px) {
+    .card {
+        margin-bottom: 56px;
+    }
+
+    form button {
+        width: 150px;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 991px) {
+    .carousel-item img {
+        height: 450px
+    }
+
+    .card img {
+        height: 400px;
+    }
+    
+    .card {
+        margin-bottom: 56px;
+    }
+
+    form button {
+        width: 150px;
+    }
+}
